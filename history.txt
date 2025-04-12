@@ -1,0 +1,32 @@
+ 
+ 1009  cd ~
+ 1010  cat > Pets.txt
+ 1011  cat > Pack animals.txt
+ 1012  cat > Pack_animals.txt
+ 1013  cat Pack_animals
+ 1014  cat Pack_animals.txt
+ 1015  cat Pets.txt Pack_animals.txt > Human_Friends.txt
+ 1016  ll
+ 1017  cat Human_Friends.txt
+ 1018  ls
+ 1019  mkdir HumanFriends
+ 1020  cp Human_Friends.txt HumanFriends/
+ 1021  rm Pack
+ 1022  cd HumanFriends
+ 1023  ls
+ 1024  cat Human_Friends.txt
+ 1025  dpkg -i mysql-apt-config_0.8.33-1_all.deb
+ 1026  sudo dpkg -i mysql-apt-config_0.8.33-1_all.deb
+ 1027  sudo su
+ 1028  cd ~
+ 1029  sudo dpkg -i mysql-apt-config_0.8.33-1_all.deb
+ 1030  sudo apt update
+ 1031  sudo dpkg -r mysql-8.0
+ 1032  sudo dpkg -r mysql-8.0.33-1
+ 1033  sudo dpkg -i mysql-apt-config_0.8.33-1_all.deb
+ 1034  sudo dpkg -r mysql-8.0.33-1
+ 1035  apt list --installed
+ 1036  dpkg -r mysql
+ 1037  sudo dpkg -r mysql
+ 1038  sudo dpkg -r mysql-server
+ 
